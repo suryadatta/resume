@@ -1,6 +1,6 @@
 body {
   background-color: #f2f2f2;
-  font-family: "Lato";
+  font-family: 'Lato';
   font-weight: 300;
   font-size: 16px;
   color: #555;
@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-weight: 300;
   color: #333;
 }
@@ -108,6 +108,7 @@ hr {
   padding-top: 60px;
   padding-bottom: 60px;
   color: white;
+  width: 100%;
 }
 
 .about h5,
@@ -126,6 +127,7 @@ p {
   background: #2f2f2f;
   padding-top: 50px;
   padding-bottom: 50px;
+  width: 100%;
 }
 
 .footer p {
@@ -294,4 +296,9 @@ body {
   -moz-animation-name: fadeInUp;
   -o-animation-name: fadeInUp;
   animation-name: fadeInUp;
+}
+.darkmode--activated p,
+.darkmode--activated h5,
+.darkmode--activated span {
+  color: rgb(179, 176, 176);
 }
